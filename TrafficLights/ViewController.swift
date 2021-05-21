@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var yellowLight: UIView!
     @IBOutlet var greenLight: UIView!
     
-    @IBOutlet weak var changeColorButton: UIButton!
+    @IBOutlet var changeColorButton: UIButton!
     
     enum CurrentColor {
         case red, yellow, green
